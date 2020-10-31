@@ -2,9 +2,9 @@
 
 [Calculadora](https://github.com/carolinenoronha/calculadora_br3)
 
-###Calculadora simples, estilisada e funcional.
+### Calculadora simples, estilisada e funcional.
 
-####Created by: 
+#### Created by: 
 Caroline Noronha;
 Daniel Basílio;
 Eric Faltou;
