@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    
+
+}
+
+.display-calc {
+    width: 450px;
+    height: 40px;
+    
+
+}
