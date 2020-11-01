@@ -2,43 +2,51 @@ body{
 background-color:  #f4cb01;
 }
 
-
 .container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: center;
     width: 300px;
-    height: 400px;
+    height: 100wh;
     background-color: black;
+
 
 }
 
 button {
-    width: 55px;
-    height: 55px;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
     font-size: large;
     font-weight: bold;
     color: black;
     background-color: #f4cb01;
     margin: 3px;
     border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .display-calc {
-    width: 350px;
+    width: 250px;
     height: 40px;
     margin: 20%;
     
 }
 
+
 .input{
-    height: 40px;
+    height: 60px;
     width: 250px;
+    margin: 2px;
+
 }
 
 .operation{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+   
 }
 .number {
     display: flex;
