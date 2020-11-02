@@ -2,45 +2,47 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>BR3-CALCULADORA</title>
-    <link rel="stylesheet" href="./calculadora.css">
-    <script type="text/javacript" src="./calculadora.js" defer></script>
-    
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora BR3</title>
+
+    <link rel="stylesheet" href="calculadora.css">
+
 </head>
+
 <body>
 
 <div class="container">
-    <div id="result" class="display-calc">
-        <input class = "input">
+    <div class="display-calc">
+        <div id="input">0</div>
     </div>
 
     <div id="operacao" class="operation" >    
-        <button id="soma" class="soma">+</button>
-        <button id="subtracao" class="subtracao">-</button>
-        <button id="divisao"  class="divisao">/</button>
-        <button id="multiplicacao" class = multiplicacao>*</button>
+        <button id="operador0" class="soma">+</button>
+        <button id="operador1" class="subtracao">-</button>
+        <button id="operador2"  class="divisao">/</button>
+        <button id="operador3" class = multiplicacao>*</button>
     </div>
    
     <div id="numeric" class="number">
-        <button id ="numeros" class="numero">1</button>
-        <button id ="numeros"class="numero">2</button>
-        <button id ="numeros" class="numero">3</button>
-        <button id ="numeros"class="numero">4</button>
-        <button id ="numeros" class="numero">5</button>
-        <button id ="numeros"class="numero">6</button>
-        <button id ="numeros" class="numero">7</button>
-        <button id ="numeros"class="numero">8</button>
-        <button id ="numeros"class="numero">9</button>
-        <button id ="numeros" class="numero">0</button>
+        <button id ="numero1" class="numero">1</button>
+        <button id ="numero2"class="numero">2</button>
+        <button id ="numero3" class="numero">3</button>
+        <button id ="numero4"class="numero">4</button>
+        <button id ="numero5" class="numero">5</button>
+        <button id ="numero6"class="numero">6</button>
+        <button id ="numero7" class="numero">7</button>
+        <button id ="numero8"class="numero">8</button>
+        <button id ="numero9"class="numero">9</button>
+        <button id ="numero0" class="numero">0</button>
         <button id="CE" class = "CE">CE</button>
-        <button id="igual" class = "igual">=</button>
+        <button id="operador4" class = "igual">=</button>
     </div>  
 
    
 </div>
 
+    <script src="calculadora.js"></script>
+        
+    
 </body>
 </html>

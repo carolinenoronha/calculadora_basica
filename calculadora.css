@@ -1,55 +1,64 @@
 body{
-background-color:  #f4cb01;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    width: 300px;
-    height: 100wh;
-    background-color: black;
-
-
-}
-
-button {
-    justify-content: center;
-    width: 65px;
-    height: 65px;
-    font-size: large;
-    font-weight: bold;
-    color: black;
-    background-color: #f4cb01;
-    margin: 3px;
-    border-radius: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.display-calc {
-    width: 250px;
-    height: 40px;
-    margin: 20%;
+    background-color:  #f4cb01;
+    }
     
-}
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 300px;
+        height: 100wh;
+        background-color: black;
+    
+    
+    }
 
-
-.input{
-    height: 60px;
-    width: 250px;
-    margin: 2px;
-
-}
-
-.operation{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-   
-}
-.number {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    #input {
+        color: black;
+        text-align: right;
+        font-size: 32px;
+        background-color: white;
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    button {
+        justify-content: center;
+        width: 65px;
+        height: 65px;
+        font-size: large;
+        font-weight: bold;
+        color: black;
+        background-color: #f4cb01;
+        margin: 3px;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .display-calc {
+        width: 250px;
+        height: 40px;
+        margin: 20%;
+        
+    }
+    
+    
+    .input{
+        height: 60px;
+        width: 250px;
+        margin: 2px;
+    
+    }
+    
+    .operation{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    .number {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
