@@ -51,14 +51,10 @@ body{
     
     }
     
-    .operation{
+    .operation, .number{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
        
     }
-    .number {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  
