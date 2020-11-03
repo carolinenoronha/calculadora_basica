@@ -1,6 +1,29 @@
 body{
+<<<<<<< Updated upstream
 background-color:  #f4cb01;
 }
+=======
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  white;
+    /* opacity: 80%; */
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        flex: initial;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 100wh;
+        border-radius: 10px;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        background-color: #0c1d1d ;
+    
+    }
+>>>>>>> Stashed changes
 
 .container {
     display: flex;
@@ -32,6 +55,7 @@ button {
     height: 40px;
     margin: 20%;
     
+<<<<<<< Updated upstream
 }
 
 
@@ -53,3 +77,18 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
 }
+=======
+    .operation{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    .number {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+>>>>>>> Stashed changes
